@@ -2,7 +2,7 @@ const TelegramBot = require("node-telegram-bot-api");
 const express = require("express");
 require("dotenv").config();
 // add your token in .env or add directly here.
-const TOKEN = process.env.TOKEN || ""; 
+const TOKEN = process.env.TOKEN || "7562711726:AAFLNPcnxpXslb6v1CcWhHi_vGMWpAeXImo"; 
 
 if (!TOKEN) {
   console.error("Bot token is missing! Please set TOKEN in .env or environment variables.");
